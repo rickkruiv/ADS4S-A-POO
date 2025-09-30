@@ -6,7 +6,6 @@ import java.time.LocalDate;
 @Entity
 @Table(name = "PESSOA")
 public class PessoaModel {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID_PESSOA")
